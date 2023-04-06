@@ -1,42 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Tauri + Nuxt 3 Template
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a minimal template to combine Tauri and Nuxt 3.
 
-## Setup
+This template is constructed completely with official template from Tauri and Nuxt 3.
 
-Make sure to install the dependencies:
+Tauri API has been verified to work with Nuxt, just make sure `ssr` is `false` in [nuxt.config.ts](./nuxt.config.ts). 
 
-```bash
-# yarn
-yarn install
+The code used to verify tauri API has been removed to keep the template as clean as possible. `@tauri-apps/api` has been installed though.
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
