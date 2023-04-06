@@ -6,9 +6,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
     "nuxt": "^3.3.3"
   }
 }
