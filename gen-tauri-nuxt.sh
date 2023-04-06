@@ -1,7 +1,7 @@
 APP_NAME=$1
 if [ -z "$APP_NAME" ]; then
-  echo "Please provide the app name as the first argument"
-  exit 1
+    echo "Please provide the app name as the first argument"
+    read APP_NAME
 fi
 
 npx nuxi init $APP_NAME
