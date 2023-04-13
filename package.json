@@ -10,6 +10,7 @@
     "tauri": "tauri"
   },
   "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
     "@tauri-apps/cli": "^1.2.3",
     "nuxt": "^3.3.3"
   },
