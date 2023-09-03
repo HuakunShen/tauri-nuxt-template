@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.nuxt",
+      "identifier": "tech.huakun.tauri-nuxt-template",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Tauri-Nuxt",
+        "title": "tauri-nuxt-template",
         "width": 800
       }
     ]
