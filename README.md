@@ -21,7 +21,8 @@ Run it like this `./gen-tauri-nuxt.sh $YOUR_APP_NAME`.
 Or this, so you don't need to download or copy anything.
 
 ```bash
-echo "YOUR_APP_NAME" | sh -c "$(curl -fsSL https://raw.githubusercontent.com/HuakunShen/tauri-nuxt-template/main/gen-tauri-nuxt.sh)"
+wget https://raw.githubusercontent.com/HuakunShen/tauri-nuxt-template/main/gen-tauri-nuxt.sh
+sh gen-tauri-nuxt.sh
 ```
 
 It's pretty much completely automatic, but you still need to interact with the shell script prompt. Make sure `npm run generate` is used instead of the default `npm run build`, run it and you will see.
@@ -40,6 +41,7 @@ npm i
 
 echo "// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    devtools: { enabled: true },
     ssr: false // SSR must be turned off
 })" > nuxt.config.ts
 npm install --save-dev @tauri-apps/cli

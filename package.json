@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -11,10 +12,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@tauri-apps/cli": "^1.4.0",
-    "nuxt": "^3.7.0"
+    "@tauri-apps/cli": "^1.5.1",
+    "nuxt": "^3.7.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.4.0"
+    "@tauri-apps/api": "^1.5.0"
   }
 }
