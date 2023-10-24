@@ -22,7 +22,7 @@ Or this, so you don't need to download or copy anything.
 
 ```bash
 wget https://raw.githubusercontent.com/HuakunShen/tauri-nuxt-template/main/gen-tauri-nuxt.sh
-sh gen-tauri-nuxt.sh
+sh gen-tauri-nuxt.sh $APP_NAME
 ```
 
 It's pretty much completely automatic, but you still need to interact with the shell script prompt. Make sure `npm run generate` is used instead of the default `npm run build`, run it and you will see.
