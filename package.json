@@ -13,8 +13,8 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@tauri-apps/cli": "^1.5.5",
-    "nuxt": "^3.8.0",
-    "vue": "^3.3.6",
+    "nuxt": "^3.9.3",
+    "vue": "^3.4.14",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
