@@ -12,12 +12,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@tauri-apps/cli": "^1.5.5",
-    "nuxt": "^3.9.3",
-    "vue": "^3.4.14",
-    "vue-router": "^4.2.5"
+    "@tauri-apps/cli": "^1.5.13",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.5.1"
+    "@tauri-apps/api": "^1.5.4"
   }
 }
