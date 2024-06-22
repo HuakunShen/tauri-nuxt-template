@@ -1,5 +1,7 @@
 # Tauri + Nuxt 3 Template
 
+For Tauri V2, go to branch `v2`.
+
 This is a minimal template to combine Tauri and Nuxt 3.
 
 This template is constructed completely with official template from Tauri and Nuxt 3.
